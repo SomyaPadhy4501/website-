@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    height: 10vh;
+    align-items: center;
+    }
+.logos{
+    width: 400px;
+    float: left;
+    margin-right: 10px;
+
+}
+.logo{
+    font-weight: 400;
+    margin: 5px;
+    margin-top: 15px;
+}
+.logoconatiner,.nav-links {
+    display: flex;
+}
+.logoconatiner{
+    flex: 1;
+
+}
+
+nav{
+    flex: 5;
+
+}
+.nav-links{
+    justify-content: space-around;
+    list-style: none;
+}
+.nav-link{
+color: #5f5f79;
+font-size: 18px;
+text-decoration: none;
+
+}
+.presentation{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+
+    
+}
+.introduction{
+    flex: 1;
+}
+.introtext p{
+    font-size: 25px;
+    font-weight: 500;
+    background: linear-gradient(to right, #494964,#6f6f89);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 10vh;
+
+
+
+}
+.cover{
+    flex: 1;
+}
+.cover{
+    width: 60vh;
+    height: 60vh;
+   
+
+}
+
+
+@media screen and (max-width: 768px){
+    .logos{
+        width: 300px;
+    }
+
+}
+@media screen and (max-width: 768px){
+    body{
+     overflow-x: hidden;
+    }
+    .nav-links{
+        position: relative;
+        right:200px;
+        height: 40vh;
+        top:15vh;
+        display: flex;
+      align-items: center;
+      justify-content: space-around;
+        width: 10%;
+        
+       
+       
+    }
+  
+    }
+
+
+
+    
+    @media screen and (max-width: 768px){
+
+        .presentation{
+            display: flex;
+            width: 90%;
+            margin: auto;
+            min-height: 90vh;
+            align-items: center;
+        
+            
+        }
+        .introduction{
+            flex: 1;
+        }
+        .introtext p{
+            font-size: 11px;
+            font-weight: 500;
+            background: linear-gradient(to right, #494964,#6f6f89);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-top: 100px;
+        
+        
+        }
+        .cover{
+        width: 10vh;
+        height: 20vh;
+          
+        }
+        
+    
+    }
